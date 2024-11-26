@@ -48,6 +48,10 @@ for (let info in data) {
   div.appendChild(button);
   buttons(button);
   button.innerText = "Add to Cart";
+  // button.addEventListener("click", () => {
+  //   console.log("yes");
+  //   iimage.style.display = "none";
+  // });
 }
 
 function buttons(container) {
